@@ -62,7 +62,6 @@ export default function Projects() {
         }
     ];
 
-    // Group projects by category
     const projectsByCategory = projects.reduce((acc, project) => {
         if (!acc[project.category]) {
             acc[project.category] = [];
@@ -78,7 +77,6 @@ export default function Projects() {
 
             <main style={{ padding: '2rem 0', minHeight: '100vh', background: 'var(--ifm-color-emphasis-100)' }}>
                 <div className="container">
-                    {/* Header */}
                     <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
                         <h1 style={{ color: '#57fff1ff', marginBottom: '1rem', fontSize: '2.5rem' }}>All Projects</h1>
                         <p style={{ maxWidth: '600px', margin: '0 auto', fontSize: '1.1rem', color: '#4e95e6ff' }}>
@@ -86,7 +84,6 @@ export default function Projects() {
                         </p>
                     </div>
 
-                    {/* Projects by Category */}
                     {Object.entries(projectsByCategory).map(([category, categoryProjects]) => (
                         <section key={category} style={{ marginBottom: '3rem' }}>
                             <h2 style={{
@@ -129,14 +126,12 @@ export default function Projects() {
                                             e.currentTarget.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.05)';
                                         }}
                                     >
-                                        {/* Left Content - Text */}
                                         <div style={{
                                             flex: 1,
                                             display: 'flex',
                                             flexDirection: 'column',
                                             height: '100%'
                                         }}>
-                                            {/* Project Title */}
                                             <h3 style={{
                                                 color: 'var(--ifm-color-primary)',
                                                 marginBottom: '1rem',
@@ -145,7 +140,6 @@ export default function Projects() {
                                                 {project.title}
                                             </h3>
 
-                                            {/* Project Description */}
                                             <p style={{
                                                 flex: 1,
                                                 marginBottom: '1.5rem',
@@ -156,7 +150,6 @@ export default function Projects() {
                                                 {project.description}
                                             </p>
 
-                                            {/* Technologies */}
                                             <div style={{
                                                 display: 'flex',
                                                 flexWrap: 'wrap',
@@ -179,7 +172,6 @@ export default function Projects() {
                                             </div>
                                         </div>
 
-                                        {/* Right Content - Button */}
                                         <div style={{
                                             display: 'flex',
                                             alignItems: 'center',
@@ -219,7 +211,6 @@ export default function Projects() {
                         </section>
                     ))}
 
-                    {/* Back to Home Button */}
                     <div style={{
                         textAlign: 'center',
                         marginTop: '4rem',
