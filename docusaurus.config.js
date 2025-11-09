@@ -1,7 +1,4 @@
-// @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
-
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Iliass Aguerzi',
   tagline: 'Data Scientist & AI Developer',
@@ -10,12 +7,8 @@ const config = {
   future: {
     v4: true,
   },
-
-  // Update these for your GitHub Pages
   url: 'https://iliass-aguerzi.github.io',
   baseUrl: '/',
-
-  // GitHub pages deployment config
   organizationName: 'Iliass-Aguerzi',
   projectName: 'iliass-aguerzi.github.io',
 
@@ -29,12 +22,10 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false, // Disable docs since you're not using them
+        docs: false, 
         blog: {
           showReadingTime: true,
-          // Remove the editUrl or update to your repo
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -44,19 +35,13 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your own social card or remove
       image: 'img/social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
         title: 'Iliass Aguerzi',
-        logo: {
-          alt: 'Iliass Aguerzi Logo',
-          src: 'img/logo.svg', // Optional - add your own logo
-        },
         items: [
           {
             to: '/projects',
