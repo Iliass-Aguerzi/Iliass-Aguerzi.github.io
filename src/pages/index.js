@@ -12,7 +12,6 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        {/* Profile Image */}
         <div style={{
           width: '150px',
           height: '150px',
@@ -34,7 +33,6 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">Data Scientist & AI Developer</p>
 
-        {/* Buttons - Using Docusaurus button classes properly */}
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -53,7 +51,6 @@ function HomepageHeader() {
   );
 }
 
-// Project Card Component
 function ProjectCard({ title, description, technologies, projectUrl }) {
   return (
     <div className="card" style={{
@@ -66,7 +63,7 @@ function ProjectCard({ title, description, technologies, projectUrl }) {
       height: '100%',
       display: 'flex',
       flexDirection: 'column',
-      minHeight: '320px' // Added minimum height for consistent rectangles
+      minHeight: '320px'
     }}>
       <h3 style={{ color: 'var(--ifm-color-primary)', marginBottom: '1rem' }}>{title}</h3>
       <p style={{ flex: 1, marginBottom: '1.5rem', color: 'var(--ifm-font-color-base)' }}>{description}</p>
@@ -99,7 +96,6 @@ function ProjectCard({ title, description, technologies, projectUrl }) {
   );
 }
 
-// Projects Section
 function ProjectsSection() {
   const projects = [
     {
@@ -136,12 +132,11 @@ function ProjectsSection() {
           Practical AI solutions and data analysis tools that solve real-world problems with clean code and robust implementations.
         </p>
 
-        {/* Strict 2x2 Grid Layout */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(2, 1fr)', // Always 2 columns
+          gridTemplateColumns: 'repeat(2, 1fr)',
           gap: '2rem',
-          marginBottom: '4rem', // Increased margin to separate from button
+          marginBottom: '4rem',
           maxWidth: '1000px',
           margin: '0 auto'
         }}>
@@ -156,11 +151,10 @@ function ProjectsSection() {
           ))}
         </div>
 
-        {/* More Projects Button with proper spacing */}
         <div style={{
           textAlign: 'center',
-          marginTop: '2rem', // Added top margin to separate from grid
-          paddingTop: '1rem' // Added padding for extra space
+          marginTop: '2rem',
+          paddingTop: '1rem'
         }}>
           <Link
             className="button button--primary button--lg"
@@ -173,7 +167,6 @@ function ProjectsSection() {
   );
 }
 
-// About Section
 function AboutSection() {
   return (
     <section style={{
