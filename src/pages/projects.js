@@ -80,7 +80,7 @@ export default function Projects() {
                     <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
                         <h1 style={{ color: '#57fff1ff', marginBottom: '1rem', fontSize: '2.5rem' }}>All Projects</h1>
                         <p style={{ maxWidth: '600px', margin: '0 auto', fontSize: '1.1rem', color: '#4e95e6ff' }}>
-                            Explore my complete portfolio of AI, data science, and software development projects
+                            Explore my complete portfolio of AI, data science and software development projects
                         </p>
                     </div>
 
@@ -246,3 +246,4 @@ export default function Projects() {
         </Layout>
     );
 }
+
