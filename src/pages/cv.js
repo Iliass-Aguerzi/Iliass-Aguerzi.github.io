@@ -10,7 +10,6 @@ export default function CV() {
             <div style={{ padding: '2rem 0', minHeight: '100vh', background: 'white' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
 
-                    {/* Header */}
                     <div style={{ textAlign: 'center', marginBottom: '3rem', borderBottom: '2px solid #667eea', paddingBottom: '2rem' }}>
                         <h1 style={{ color: '#2c3e50', marginBottom: '0.5rem', fontSize: '2.5rem' }}>Iliass Aguerzi</h1>
                         <h2 style={{ color: '#7f8c8d', marginBottom: '1rem', fontSize: '1.5rem', fontWeight: 'normal' }}>
@@ -37,7 +36,6 @@ export default function CV() {
                         </div>
                     </div>
 
-                    {/* Profile Section */}
                     <section style={{ marginBottom: '2.5rem' }}>
                         <h3 style={{ color: '#2c3e50', borderBottom: '1px solid #eaeaea', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
                             PROFILE
@@ -55,7 +53,6 @@ export default function CV() {
                         </p>
                     </section>
 
-                    {/* Education Section */}
                     <section style={{ marginBottom: '2.5rem' }}>
                         <h3 style={{ color: '#2c3e50', borderBottom: '1px solid #eaeaea', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
                             EDUCATION
@@ -64,12 +61,11 @@ export default function CV() {
                             <h4 style={{ color: '#2c3e50', marginBottom: '0.5rem' }}>China University of Petroleum Beijing</h4>
                             <p style={{ color: '#667eea', fontWeight: '600', marginBottom: '0.5rem' }}>Bachelor in Computer Science and Technology</p>
                             <p style={{ color: '#5d6d7e', marginBottom: '0.5rem' }}>Expected Graduation: July 2026</p>
-                            <p style={{ color: '#5d6d7e', marginBottom: '0.5rem' }}><strong>Relevant Coursework:</strong> Data Structures, C Language Programming, Algorithm Design & Analysis, Operating Systems, Artificial Intelligence, Discrete Mathematics, Assembly Language</p>
-                            <p style={{ color: '#5d6d7e' }}><strong>Program:</strong> English Taught Curriculum</p>
+                            <p style={{ color: '#5d6d7e', marginBottom: '0.5rem' }}>Relevant Coursework: Data Structures, C Language Programming, Algorithm Design & Analysis, Operating Systems, Artificial Intelligence, Discrete Mathematics, Assembly Language</p>
+                            <p style={{ color: '#5d6d7e' }}>Program: English Taught Curriculum</p>
                         </div>
                     </section>
 
-                    {/* Skills Section */}
                     <section style={{ marginBottom: '2.5rem' }}>
                         <h3 style={{ color: '#2c3e50', borderBottom: '1px solid #eaeaea', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
                             SKILLS
@@ -98,13 +94,12 @@ export default function CV() {
                         </div>
                     </section>
 
-                    {/* Projects & Experience Section */}
                     <section style={{ marginBottom: '2.5rem' }}>
                         <h3 style={{ color: '#2c3e50', borderBottom: '1px solid #eaeaea', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
                             TECHNICAL PROJECTS & EXPERIENCE
                         </h3>
                         <ul style={{ color: '#5d6d7e', lineHeight: '1.6', paddingLeft: '1.5rem' }}>
-                            <li style={{ marginBottom: '0.8rem' }}>Designed a hybrid <strong>CNN-LSTM</strong> model for EEG sleep stage classification, applying deep learning to sequential biomedical data.</li>
+                            <li style={{ marginBottom: '0.8rem' }}>Designed a hybrid CNN-LSTM model for EEG sleep stage classification, applying deep learning to sequential biomedical data.</li>
                             <li style={{ marginBottom: '0.8rem' }}>Developed an NLP text classification system using Hugging Face's BART model, applying zero-shot learning to practical AI tasks.</li>
                             <li style={{ marginBottom: '0.8rem' }}>Engineered a virtual file system in Python, implementing core OS features for file management and data storage.</li>
                             <li style={{ marginBottom: '0.8rem' }}>Built automated text summarization tools using Python and NLP libraries to efficiently condense long documents.</li>
@@ -112,7 +107,6 @@ export default function CV() {
                         </ul>
                     </section>
 
-                    {/* Awards Section */}
                     <section style={{ marginBottom: '2.5rem' }}>
                         <h3 style={{ color: '#2c3e50', borderBottom: '1px solid #eaeaea', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
                             AWARDS & CERTIFICATIONS
@@ -121,13 +115,12 @@ export default function CV() {
                             <h4 style={{ color: '#2c3e50', marginBottom: '0.5rem' }}>Stride to the Future Entrepreneurship Training Camp</h4>
                             <p style={{ color: '#5d6d7e', fontStyle: 'italic', marginBottom: '0.5rem' }}>Changping District Government, Beijing | 2023</p>
                             <p style={{ color: '#5d6d7e' }}>
-                                Selected for a competitive program, gaining <strong>hands on experience</strong> in <strong>market analysis</strong> and
-                                <strong> investor pitching</strong> while collaborating effectively in a <strong>cross-cultural</strong> team.
+                                Selected for a competitive program, gaining hands on experience in market analysis and
+                                investor pitching while collaborating effectively in a cross-cultural team.
                             </p>
                         </div>
                     </section>
 
-                    {/* Back to Home */}
                     <div style={{ textAlign: 'center', marginTop: '3rem', borderTop: '1px solid #eaeaea', paddingTop: '2rem' }}>
                         <a
                             href="/"
